@@ -1,0 +1,65 @@
+.avatarComent{
+    margin-top: 10px;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 8px;
+    border: 4px solid var(--gray800);
+    outline: 2px solid var(--purple500); 
+
+    display: inline-flex;
+
+}
+.coment{  
+    
+    background-color:var(--gray800);
+    
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    height: 100%;
+    width: 85%;
+
+    display: inline-flex;
+}
+.coment div{
+    width: 85%;
+}
+.coment div aside{
+    display: flex;
+    flex-direction: column;
+    
+
+    margin: 10px;
+    margin-bottom: 10px;
+
+    padding: 1rem;
+    background-color: var(--gray600);
+    border-radius: 8px;
+
+    justify-content: center;    
+
+}
+.coment aside span{
+    color: var(--gray300);
+    opacity: 0.5;
+    font-size: 12px;
+}
+.textComent{
+    padding:30px 0px;
+    
+    font-style: none;
+}
+
+.heart{
+    display: inline;
+
+    margin-left: 10px;
+}
+.coment div p{
+    display: inline;
+    margin-left: 10px;
+    
+}
+    
+

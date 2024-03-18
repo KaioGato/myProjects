@@ -1,0 +1,50 @@
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+#icone-MVP{
+  display: inline-block;
+  margin: 0 auto;
+     width: 200px; /* altere o tamanho conforme desejado */
+
+}
+
+input {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid #1A1F51;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: black;
+  margin: 12px auto;
+    ::placeholder {
+    color: #d3d3d3;
+    }
+}
+
+button {
+  background-color: #4B73F5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 16px;
+}
+.error{
+  display: none;
+  padding: 10px 5px;
+  font-size: 13px;
+  color: red;
+  margin: 10px;
+}

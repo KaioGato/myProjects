@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>MVPtech - Login</title>
+     <link rel="icon" href="../-imagens/logo-MVP-tech-sem-fundo.ico" type="image/x-icon">   
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+  </head>
+
+  <body>
+
+    <div>
+     <img src="../-imagens/logo MVP tech - sem fundo.png" id="icone-MVP">
+    </div>
+  
+     <label>Email:</label>
+     <input type="email" id="email" name="email" 
+      onchange="onChangeEmail()" placeholder="Seu@email.com">
+     <label class="error" id="email-required-error">Email obrigatório</label><br>
+     <label class="error"id="email-invalid-error">Email inválido</label><br>
+
+     <label for="password">Senha:</label>
+     <input type="password" id="password" name="password" 
+      onchange="onChangePassword()" placeholder="Insira a senha"><br>
+     <label class="error" id="password-required-error">Senha obrigatória</label><br>
+      
+     <button type="button" id="login" disabled="true" 
+      onclick="forSelectWindow()" >Login</button><br>
+     <button type="button" id="cadastro" onclick="forCadastrar()">Cadastrar-se</button>
+     <button type="button" id="esqueceu" disabled="true" onclick="recoverPassword()" >Esqueceu a senha?</button>
+      
+     
+  </body>
+
+  <link rel="stylesheet" href="../-global/loading.css"/>
+  <script src="../-global/loading.js"></script>
+  <link rel="stylesheet" href="mvptech-login.css"/>
+  <script src="mvptech-login.js"></script>
+  <script src="../-global/validate.js"></script>
+</html>

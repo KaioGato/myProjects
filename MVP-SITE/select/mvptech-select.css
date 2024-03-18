@@ -1,0 +1,213 @@
+/* Define o estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(2540, 250, 250);
+  margin: 0 auto;
+  max-width: 100%;
+  transform: translateX(20px);
+  align-items: center;
+}
+#icone-MVP{
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* altere o tamanho conforme desejado */
+
+}
+text{
+  display: inline-flex;
+  transform: translatex(-5%) translatey(40px);
+  color: black;
+}
+ /* Estilo dos títulos */
+.new-component{
+    width: 440px;
+    height: 150px;
+    background-color: white;
+    margin: auto auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    display: block;
+    position: relative;
+    align-items: center;
+}
+#component-name{
+  width: 240px;
+  padding: 20px 20px;
+  margin: 10px 44px;
+  margin-top: 15px;
+  border: none;
+  box-sizing: content-box;
+  font-size: 14px;
+  color: black;
+  transform: translateY(50%);
+  transform: translateX(15%);
+ ::placeholder {
+  color: #d3d3d3;
+  }
+}
+#create-new-component-btn{
+  background-color: #4B73F5;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  align-items: center;
+  transform: translateY(40%);
+  transform: translateX(50%);
+  
+}
+#create-new-component-btn:hover{
+  background-color: #1A1F51;
+  cursor: pointer;
+}
+
+/* Estilo dos novos componentes criados */
+.component {
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+  top: 35px;
+  right: 0;
+}
+h2{
+  color: rgb(0, 0, 0);
+  margin: 13px 25px;
+  font-size: 25px;
+  text-align: fixed left;
+
+}
+
+/* Estilo do botão que alterna entre ligado e desligado */
+.on-off-btn {
+  background-color: #4B73F5;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed left;
+  top: 60%;
+  right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.on-off-btn:hover {
+  background-color: #1A1F51;
+}
+
+.seeMore-btn{
+  background-color: #4B73F5;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed left;
+  top: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.seeMore-btn:hover{
+  background-color: #1A1F51;
+}
+
+/* Estilo do botão de edição */
+.edit-btn {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  font-size: 18px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: center;
+  top: 50%;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.edit-btn:hover{
+  color: #1A1F51;
+  border: 2px solid #1A1F51;
+
+}
+
+/* Estilo do botão de exclusão */
+.delete-btn {
+  background-color: transparent;
+  color: red;
+  border: 2px solid red;
+  font-size: 16px;
+  padding: 2px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: center;
+  top: 50%;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.delete-btn:hover{
+  color: rgb(114, 0, 0);
+  border: 2px solid rgb(114, 0, 0);
+}
+
+ /* Estilo do input para editar o nome do componente */
+.edit-input {
+  border: none;
+  padding: 5px;
+  width: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Estilo dos alertas */
+.alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+/* Estilo do botão "OK" no alerta */
+.alert button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seeMore-label{
+  width: 100px;
+  height: 130px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;  
+  padding: 0 20px;
+  position: relative;
+  margin: -100px;
+  margin-top: 10px;
+  top: -50px;
+  left: 105px;
+}
