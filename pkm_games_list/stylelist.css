@@ -76,7 +76,7 @@ ul li {
   transition: all 0.3s;
 }
 ul li:hover{
-  background: rgba(255, 251, 251, 0.5);
+  background: rgba(150, 150, 150, 0.5);
 }
 
 ul li div{
@@ -102,6 +102,6 @@ ul li a{
   transition: 0.3s;
 }
 ul li a:hover{
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(60, 60, 60);
   
 }
