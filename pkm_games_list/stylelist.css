@@ -35,9 +35,9 @@ body *{
   margin: auto;
 }
 #profile p {
-font-weight: 500;
+font-weight: 400;
 font-size: 20px;
-line-height: 24px;
+line-height: 20px;
 margin-top: 4px;
 }
 
@@ -61,12 +61,14 @@ ul button:hover{
 }
 
 ul li {
-  display: none;
+  display: flex;
+  flex-direction: row;
+
   align-items: center;
   justify-content: center;
   gap: 10px;
 
-  padding: 10px 20px;
+  padding: 10px 10px;
 
   background: rgba(233, 233, 233, 0.1);
   border-radius: 10px;
@@ -77,19 +79,29 @@ ul li:hover{
   background: rgba(255, 251, 251, 0.5);
 }
 
+ul li div{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li div img{
+  width: 100px;
+  height: 100px;
+}
+
+
 ul li a{
   text-decoration: none;
-  padding: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
   border-radius: 10px;
 
   transition: 0.3s;
 }
 ul li a:hover{
   background-color: rgb(68, 68, 68);
-  color: rgba(0, 0, 0, 0.5);
-}
-
-ul li div{
-  display: flex;
-  flex-direction: column;
+  
 }
